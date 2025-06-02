@@ -131,18 +131,29 @@ ul.services-list {
         }
 
         @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                gap: 10px;
-                   align-items: center;
-            }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
 
-            .hero h2 {
-                font-size: 2em;
-            }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
 
-            .hero h3 {
-                font-size: 1.2em;
-            }
-        }
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero h2 {
+    font-size: 2em;
+  }
+
+  .hero h3 {
+    font-size: 1.2em;
+  }
+}
 
