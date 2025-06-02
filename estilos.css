@@ -129,7 +129,25 @@ ul.services-list {
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             font-size: 1.5rem;
         }
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+}
 
 
 
