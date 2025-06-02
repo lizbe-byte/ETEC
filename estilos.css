@@ -134,6 +134,7 @@ ul.services-list {
             nav ul {
                 flex-direction: column;
                 gap: 10px;
+                   align-items: center;
             }
 
             .hero h2 {
